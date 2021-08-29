@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
+    width: 100%;
 }
 
 :root {
@@ -34,7 +35,7 @@ body {
 
 .container {
     margin: 100px auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
     display: flex;
     
 }
