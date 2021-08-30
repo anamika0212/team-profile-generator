@@ -21,5 +21,12 @@
   "homepage": "https://github.com/anamika0212/team-profile-generator#readme",
   "devDependencies": {
     "jest": "^27.1.0"
-  }
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "keywords": [
+    "profile",
+    "generator"
+  ]
 }
