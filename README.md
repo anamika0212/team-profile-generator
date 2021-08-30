@@ -19,6 +19,7 @@ Use inquirer from your command line to answer questions about your project.
 
 View walk through video here - [Screencastify](https://drive.google.com/file/d/1yS1RXXni5FA-sDp_LK4hnMeG655NIWz0/view?usp=sharing)<br>
 [Screenshot](./assets/image/team-profile-generator.png)
+[test-run-image](./assets/image/test-run.png)
 
 
 ## License 
