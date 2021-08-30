@@ -13,6 +13,8 @@ const generateManager = function (manager) {
                 <li class="list-group-item">Email: <a href="mailto:${manager.email}">${manager.email}</a></li>
                 <li class="list-group-item">Office number: ${manager.officeNumber}</li>
                 </ul>
+
+
             </div>
         </div>
     </div>
@@ -34,6 +36,7 @@ const generateEngineer = function (engineer) {
             <li class="list-group-item">Email: <a href="${engineer.email}">${engineer.email}</a></li>
             <li class="list-group-item">GitHub: <a href="https://github.com/${engineer.github}" target="_blank" rel="noopener noreferrer">${engineer.github}</a></li>
             </ul>
+
             </div>
         </div>
     </div>
@@ -51,10 +54,11 @@ const generateIntern = function (intern) {
             </div>
             <div class="card-body">
                 <ul class="list-group">
-                <li class="list-group-item">ID: {{ id }}</li>
-                <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
-                <li class="list-group-item">School: {{ school }}</li>
+                <li class="list-group-item">ID: ${intern.id}</li>
+                <li class="list-group-item">Email: <a href="${intern.email}">${intern.email}</a></li>
+                <li class="list-group-item">School: ${intern.school}</li>
                 </ul>
+
             </div>
     </div>
 </div>
