@@ -1,6 +1,7 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
     width: 100%;
+    margin-right: 100px;  
 }
 
 :root {
@@ -20,23 +21,33 @@ body {
 
 .navbar-brand {
     font-size: 50px;
+    
+   
 }
 
 
 .card-header {
     background-color: var(--primary);
     color: var(--secondary);
+    border-right:transparent 10px;
+    box-shadow: 4px 4px 7px -1px rgba(0, 0, 0, 0.75);
+    border: none;
+
 }
 
 .card-body {
     background-color: var(--secondary);
     color: var(--primary);
+    border: solid 10px;
+    
 }
 
 .container {
-    margin: 100px auto;
-    justify-content: space-around;
+    margin: 50px auto;
+    justify-content: space-evenly;
     display: flex;
+    
+    
     
 }
 
